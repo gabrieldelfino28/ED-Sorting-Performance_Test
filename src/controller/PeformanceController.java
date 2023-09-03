@@ -31,7 +31,7 @@ public class PeformanceController {
 
         double duration = (endT - start);
         duration /= Math.pow(10,9);
-        return "Merge: "+duration+ " ms";
+        return "Merge: "+duration+ " seconds";
     }
 
     public String QuickTest(int[] arr){
@@ -45,6 +45,6 @@ public class PeformanceController {
         double duration = (endT - start);
         duration /= Math.pow(10,9);
 
-        return "Quick: "+duration+ " ms";
+        return "Quick: "+duration+ " seconds";
     }
 }

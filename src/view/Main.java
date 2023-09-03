@@ -26,7 +26,8 @@ public class Main {
             arr[i] = (int) (Math.random() * 9999 + 1);
         }
 
-        System.out.println("With a random Array with 10000 slots");
+        System.out.println("\nWith a random Array with 10000 slots\n");
+
         System.out.println(p.BubbleTest(arr));
         System.out.println(p.MergeTest(arr));
         System.out.println(p.QuickTest(arr));
